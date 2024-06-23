@@ -632,7 +632,7 @@ a {
   font-size: 14px;
   text-transform: uppercase;
   outline: none;
-  transition: border-color .2s;
+  /* transition: border-color .2s; */
 
 }
 
