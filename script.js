@@ -293,12 +293,12 @@ var inp3 = document.querySelector("#messageInputContainer textarea");
 
 
 document.getElementById('profileIcon').addEventListener('click', function() {
-  var profileInputContainer = document.getElementById('profileInputContainer');
+  var profileInputContainer = document.getElementById('profileInputContainer')
   if ( profileInputContainer.style.display === 'block') {
       profileInputContainer.style.display = 'none';
   } else {
       profileInputContainer.style.display = 'block';
-      inp.value = " ";
+      inp.value = " "; 
   }
 });
 
