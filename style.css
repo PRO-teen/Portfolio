@@ -865,3 +865,12 @@ nav h3{
     width: 80%;
   }
 }
+
+@media (min-width:1001px) {
+
+  #string{
+    display: none;
+  }
+  
+  
+}
