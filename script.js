@@ -284,21 +284,23 @@ gsap.to("#page4", {
   }
 });
 
-
-
-
 // icons
 
+// var btn = document.querySelector("#page4 button");
+var inp = document.querySelector("#profileInputContainer input");
+var inp2 = document.querySelector("#emailInputContainer input");
+var inp3 = document.querySelector("#messageInputContainer textarea");
+
+
 document.getElementById('profileIcon').addEventListener('click', function() {
-  var profileContainer = document.getElementById('profileInputContainer');
-  if (profileInputContainer.style.display === 'block') {
+  var profileInputContainer = document.getElementById('profileInputContainer');
+  if ( profileInputContainer.style.display === 'block') {
       profileInputContainer.style.display = 'none';
   } else {
       profileInputContainer.style.display = 'block';
+      inp.value = " ";
   }
 });
-
-
 
 document.getElementById('emailIcon').addEventListener('click', function() {
   var emailInputContainer = document.getElementById('emailInputContainer');
@@ -306,6 +308,7 @@ document.getElementById('emailIcon').addEventListener('click', function() {
       emailInputContainer.style.display = 'none';
   } else {
       emailInputContainer.style.display = 'block';
+      inp2.value = " ";
   }
 });
 
@@ -315,8 +318,13 @@ document.getElementById('messageIcon').addEventListener('click', function() {
       messageInputContainer.style.display = 'none';
   } else {
       messageInputContainer.style.display = 'block';
+      inp3.value = " ";
   }
 });
+
+
+
+
 
 
 // string
@@ -370,6 +378,8 @@ document.getElementById('downloadCvBtn').addEventListener('click', function() {
   // Remove the anchor from the document
   document.body.removeChild(a);
 });
+
+
 
 
 

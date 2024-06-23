@@ -690,15 +690,12 @@ a {
 
 
 #string{
-  height: 50px;
-  width: 100%;
   background-color:#0C0C0C; 
 }
 
 #string svg{
-  margin-top: -60px;
-  margin-left: 100px;
-  color: #27dfb3;
+  width: 100%;
+  margin-left: 10%;
 }
 
 
@@ -821,7 +818,7 @@ nav h3{
 
   /* #string */
 
-  #string{
+  /* #string{
     height: 50px;
     width: 100%;
     background-color:#0C0C0C; 
@@ -830,9 +827,20 @@ nav h3{
   #string svg{
     margin-top: -5px;
     margin-left: -12px;
-    /* margin-right: 30px; */
     color: #27dfb3;
+  } */
+
+
+  #string{
+    background-color:#0C0C0C; 
   }
+  
+  #string svg{
+    width: 88%;
+    margin-left: 5%;
+  }
+  
+  
 
   /* icons */
   #icons img{
@@ -842,6 +850,18 @@ nav h3{
   }
 
 
+
+
   
 }
 
+@media (min-width:1000px) {
+
+  #string{
+    background-color:#0C0C0C; 
+  }
+  
+  #string svg{
+    width: 80%;
+  }
+}
